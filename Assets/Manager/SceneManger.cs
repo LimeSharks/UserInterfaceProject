@@ -32,5 +32,10 @@ public class SceneManger : MonoBehaviour
     {
         SceneManager.LoadScene(5);
     }
+
+    public void EnterIndexScene(int index)
+    {
+        SceneManager.LoadScene(index - 1);
+    }
     
 }

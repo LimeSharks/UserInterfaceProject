@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MagicSystem : MonoBehaviour
@@ -13,6 +15,10 @@ public class MagicSystem : MonoBehaviour
     public float blackSpawnsTime;
     public float defaultTime = 1.0f;
     // Update is called once per frame
+    private void Start()
+    {
+    }
+
     void Update()
     {
         if (Input.GetKey("k") && Input.GetKey("K"))

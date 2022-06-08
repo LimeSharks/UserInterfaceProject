@@ -10,10 +10,11 @@ public class MagicSystem : MonoBehaviour
 
     public GameObject blackMagic;
 
-    public SceneManger sceneManger;
     public float whiteSpawnsTime;
     public float blackSpawnsTime;
     public float defaultTime = 1.0f;
+    
+    public SceneManger sceneManger;
     // Update is called once per frame
     private void Start()
     {
@@ -21,11 +22,11 @@ public class MagicSystem : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey("k") && Input.GetKey("K"))
+        if (Input.GetKey("k"))
         {
-            sceneManger.EnterSuperCupScene();
+            sceneManger.EnterButtonSurviveScene();
         }
-    
+        
         if (!whiteMagic.activeSelf)
         {
             whiteSpawnsTime += Time.deltaTime;

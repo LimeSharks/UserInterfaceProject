@@ -6,6 +6,10 @@ using UnityEngine.EventSystems;
 public class UseMagicButton : MonoBehaviour, IPointerDownHandler
 {
     public GameObject tarGameObject;
+
+    public AudioSource audioSource;
+
+    public AudioClip audioClip;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +23,13 @@ public class UseMagicButton : MonoBehaviour, IPointerDownHandler
     }
     public void OnPointerDown(PointerEventData eventData)
     {
+        
+        if (audioSource != null && audioClip != null)
+        {
+            audioSource.PlayOneShot(audioClip);
+        }
+
         tarGameObject.SetActive(false);
+        
     }
 }

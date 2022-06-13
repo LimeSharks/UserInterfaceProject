@@ -11,6 +11,9 @@ public class HpHitSystem : MonoBehaviour
     public GameObject hpObject3;
     
     public SceneManger sceneManger;
+
+    public AudioSource audioSource;
+    public AudioClip audioClip;
     
     private void Update()
     {
@@ -22,6 +25,7 @@ public class HpHitSystem : MonoBehaviour
         {
             if (hpObject1.activeSelf)
             {
+                audioSource.PlayOneShot(audioClip);
                 hpObject1.SetActive(false);
             }
         }
@@ -29,6 +33,7 @@ public class HpHitSystem : MonoBehaviour
         {
             if (hpObject2.activeSelf)
             {
+                audioSource.PlayOneShot(audioClip);
                 hpObject2.SetActive(false);
             }
         }
@@ -36,6 +41,7 @@ public class HpHitSystem : MonoBehaviour
         {
             if (hpObject3.activeSelf)
             {
+                audioSource.PlayOneShot(audioClip);
                 hpObject3.SetActive(false);
             }
         }

@@ -112,6 +112,7 @@ namespace Tomino
         void AddPiece()
         {
             board.AddPiece();
+            
             if (board.HasCollisions())
             {
                 isPlaying = false;

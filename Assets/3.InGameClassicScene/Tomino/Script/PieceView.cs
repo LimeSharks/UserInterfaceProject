@@ -13,6 +13,8 @@ public class PieceView : MonoBehaviour
     private int blockPoolSize = 10;
     private bool forceRender = false;
 
+    public NumberOfNextBlock numberOfNextBlock;
+
     public void SetBoard(Board board)
     {
         this.board = board;
@@ -23,6 +25,10 @@ public class PieceView : MonoBehaviour
     {
         if (renderedPieceType == null || forceRender || board.nextPiece.Type != renderedPieceType)
         {
+            if (numberOfNextBlock.count > 6)
+            {
+                numberOfNextBlock.count -= 1;
+            }
             RenderPiece(board.nextPiece);
             renderedPieceType = board.nextPiece.Type;
             forceRender = false;

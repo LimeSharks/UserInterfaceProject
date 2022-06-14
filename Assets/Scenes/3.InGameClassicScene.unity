@@ -4163,6 +4163,11 @@ PrefabInstance:
       propertyPath: sceneManger
       value: 
       objectReference: {fileID: 727527451}
+    - target: {fileID: 222088188993342726, guid: 1b3ba075ac362f747a0a5541468d3739,
+        type: 3}
+      propertyPath: animatorCamera
+      value: 
+      objectReference: {fileID: 563519558}
     - target: {fileID: 222088188993342727, guid: 1b3ba075ac362f747a0a5541468d3739,
         type: 3}
       propertyPath: m_RootOrder

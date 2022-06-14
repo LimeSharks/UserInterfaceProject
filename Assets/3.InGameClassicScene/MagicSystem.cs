@@ -13,6 +13,8 @@ public class MagicSystem : MonoBehaviour
     public float whiteSpawnsTime;
     public float blackSpawnsTime;
     public float defaultTime = 1.0f;
+
+    public Animator animatorCamera;
     
     public SceneManger sceneManger;
     // Update is called once per frame
@@ -22,6 +24,10 @@ public class MagicSystem : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKey("a"))
+        {
+            animatorCamera.SetBool("isTrue",true);
+        }
         if (Input.GetKey("k"))
         {
             sceneManger.EnterButtonSurviveScene();

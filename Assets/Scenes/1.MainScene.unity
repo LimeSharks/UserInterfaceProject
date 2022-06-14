@@ -421,7 +421,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SETTINGS
+  m_text: "\uC124\uC815"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 703c2bad104242e4eaf8adfac36d22d8, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: 703c2bad104242e4eaf8adfac36d22d8,
@@ -449,8 +449,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2231,7 +2231,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SINGLE PLAY
+  m_text: "\uC2F1\uAE00 \uD50C\uB808\uC774"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 703c2bad104242e4eaf8adfac36d22d8, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: 703c2bad104242e4eaf8adfac36d22d8,
@@ -2623,7 +2623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: STORE
+  m_text: "\uC0C1\uC810"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 703c2bad104242e4eaf8adfac36d22d8, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: 703c2bad104242e4eaf8adfac36d22d8,
@@ -2758,7 +2758,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ONLINE PLAY
+  m_text: "\uC628\uB77C\uC778 \uD50C\uB808\uC774"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 703c2bad104242e4eaf8adfac36d22d8, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: 703c2bad104242e4eaf8adfac36d22d8,

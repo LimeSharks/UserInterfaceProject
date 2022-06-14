@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SUPER CUP
+  m_text: "\uC288\uD37C \uCEF5"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 703c2bad104242e4eaf8adfac36d22d8, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: 703c2bad104242e4eaf8adfac36d22d8,
@@ -1377,8 +1377,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 135
-  m_fontSizeBase: 135
+  m_fontSize: 155
+  m_fontSizeBase: 155
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4639,7 +4639,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "TAP \nTO CONTINUE"
+  m_text: "\uB118\uC5B4\uAC00\uAE30"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae8cae336bc15c143b2a29d3a8487fb7, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: ae8cae336bc15c143b2a29d3a8487fb7,
@@ -4667,8 +4667,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -860,7 +860,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: READY!
+  m_text: "\uC900\uBE44!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae8cae336bc15c143b2a29d3a8487fb7, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: ae8cae336bc15c143b2a29d3a8487fb7,
@@ -888,8 +888,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 120
+  m_fontSizeBase: 120
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -995,7 +995,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LET'S GO!
+  m_text: "\uAC00\uC790!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 703c2bad104242e4eaf8adfac36d22d8, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: 703c2bad104242e4eaf8adfac36d22d8,
@@ -1023,8 +1023,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 120
+  m_fontSizeBase: 120
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1701,7 +1701,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rookie Magician
+  m_Text: "\uCD08\uBCF4 \uB9E4\uC9C0\uC158"
 --- !u!222 &698958477
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1833,7 +1833,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC2DC\uC791 :\nRACE /\n NORMAL"
+  m_text: "\uC2DC\uC791 :\n\uB808\uC774\uC2A4 /\n \uB178\uBA40 \uBAA8\uB4DC"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 703c2bad104242e4eaf8adfac36d22d8, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: 703c2bad104242e4eaf8adfac36d22d8,
@@ -1996,8 +1996,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 200
-  m_fontSizeBase: 200
+  m_fontSize: 180
+  m_fontSizeBase: 180
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2329,7 +2329,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uAC8C\uC784 :\nONLINE PLAY / \nSUPER CUP\n"
+  m_text: "\uAC8C\uC784 :\n\uC628\uB77C\uC778 \uD50C\uB808\uC774 / \n\uC288\uD37C
+    \uCEF5\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 703c2bad104242e4eaf8adfac36d22d8, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: 703c2bad104242e4eaf8adfac36d22d8,
@@ -2930,7 +2931,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LET'S GO!
+  m_text: "\uAC00\uC790!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 703c2bad104242e4eaf8adfac36d22d8, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: 703c2bad104242e4eaf8adfac36d22d8,
@@ -2958,8 +2959,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 120
+  m_fontSizeBase: 120
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3276,7 +3277,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Starting in :'
+  m_text: "\uC2DC\uC791\uAE4C\uC9C0 :"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 703c2bad104242e4eaf8adfac36d22d8, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: 703c2bad104242e4eaf8adfac36d22d8,
@@ -3304,8 +3305,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3657,7 +3658,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Ready -'
+  m_text: "- \uC900\uBE44\uD558\uAE30 -"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ccf21f674ced16e4d9fc336d79692213, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: ccf21f674ced16e4d9fc336d79692213,
@@ -3685,8 +3686,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4052,7 +4053,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LET'S GO!
+  m_text: "\uAC00\uC790!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 703c2bad104242e4eaf8adfac36d22d8, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: 703c2bad104242e4eaf8adfac36d22d8,
@@ -4080,8 +4081,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 120
+  m_fontSizeBase: 120
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4559,7 +4560,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LET'S GO!
+  m_text: "\uAC00\uC790!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 703c2bad104242e4eaf8adfac36d22d8, type: 2}
   m_sharedMaterial: {fileID: -3013604586123294715, guid: 703c2bad104242e4eaf8adfac36d22d8,
@@ -4587,8 +4588,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 120
+  m_fontSizeBase: 120
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4707,7 +4708,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rookie Magician
+  m_Text: "\uCD08\uBCF4 \uB9E4\uC9C0\uC158"
 --- !u!222 &1783237180
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4923,7 +4924,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rookie Magician
+  m_Text: "\uCD08\uBCF4 \uB9E4\uC9C0\uC158"
 --- !u!222 &1815965790
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5797,7 +5798,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rookie Magician
+  m_Text: "\uCD08\uBCF4 \uB9E4\uC9C0\uC158"
 --- !u!222 &2075615472
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -30,12 +30,7 @@ public class UseMagicButton : MonoBehaviour, IPointerDownHandler
         {
             audioSource.PlayOneShot(audioClip);
         }
-
-        if (tarGameObject.name == "BlackButton")
-        {
-            emenyCameraMove.MoveCamera();
-        }
-
+        
         tarGameObject.SetActive(false);
         
     }

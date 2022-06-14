@@ -305,6 +305,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120351872}
   m_CullTransparentMesh: 1
+--- !u!1 &221654578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 221654580}
+  - component: {fileID: 221654579}
+  m_Layer: 0
+  m_Name: InputSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &221654579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221654578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a174428ea6cb947915d8ef339e0e85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tarGameObjectReady2: {fileID: 282498087}
+  tarGameObjectGo2: {fileID: 1466894128}
+  tarGameObjectReady3: {fileID: 1242781236}
+  tarGameObjectGo3: {fileID: 1635965785}
+  tarGameObjectReady4: {fileID: 1631727261}
+  tarGameObjectGo4: {fileID: 1200743032}
+--- !u!4 &221654580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221654578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1025641, y: 1.0266076, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &238221903
 GameObject:
   m_ObjectHideFlags: 0
@@ -1879,7 +1928,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &801248085
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3187,7 +3236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1262974366
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4159,6 +4208,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482677809}
   m_CullTransparentMesh: 1
+--- !u!1 &1536138644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1536138646}
+  - component: {fileID: 1536138645}
+  m_Layer: 0
+  m_Name: CountSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1536138645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536138644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60278012c366b8845b1f384e76d7fd97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMesh: {fileID: 801248086}
+  tarGameObject: {fileID: 1599663764}
+  tarGameObject2: {fileID: 282498087}
+  tarGameObject3: {fileID: 1242781236}
+  tarGameObject4: {fileID: 1631727261}
+  count: 0
+  countTimer: 0
+  defaultTimer: 1
+  startingGameObject: {fileID: 1262974365}
+  countGameObject: {fileID: 801248084}
+  sceneManger: {fileID: 1913410393}
+--- !u!4 &1536138646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536138644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 48.767097, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1599663764
 GameObject:
   m_ObjectHideFlags: 0
@@ -4696,19 +4799,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1785546076}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1913410393}
-        m_TargetAssemblyTypeName: SceneManger, Assembly-CSharp
-        m_MethodName: EnterButtonClassicScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1785546076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4756,11 +4847,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1785546073}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddfbd57a8c5592d49bc961ca021f1968, type: 3}
+  m_Script: {fileID: 11500000, guid: 619aa4f0547a96e4a8a52d3d3ca6b014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneManager: {fileID: 1913410393}
-  EnterSceneIndex: 3
+  tarGameObject: {fileID: 1785546073}
+  tarGameObject2: {fileID: 1599663764}
+  tarGameObject3: {fileID: 495885054}
 --- !u!1 &1815965787
 GameObject:
   m_ObjectHideFlags: 0
@@ -5189,6 +5281,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tarGameObject: {fileID: 1785546073}
+  tarGameObject2: {fileID: 1599663764}
+  tarGameObject3: {fileID: 495885054}
 --- !u!1001 &1913410392
 PrefabInstance:
   m_ObjectHideFlags: 0

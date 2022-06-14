@@ -3121,7 +3121,7 @@ GameObject:
   - component: {fileID: 1260869900}
   - component: {fileID: 1260869899}
   m_Layer: 5
-  m_Name: BlackButton (1)
+  m_Name: WhiteButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3205,6 +3205,7 @@ MonoBehaviour:
   tarGameObject: {fileID: 1260869897}
   audioSource: {fileID: 686394480}
   audioClip: {fileID: 8300000, guid: ab297b593498a6e47ba84de770477cbe, type: 3}
+  emenyCameraMove: {fileID: 0}
 --- !u!114 &1260869901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3341,6 +3342,7 @@ MonoBehaviour:
   tarGameObject: {fileID: 1563255270}
   audioSource: {fileID: 686394480}
   audioClip: {fileID: 8300000, guid: ab297b593498a6e47ba84de770477cbe, type: 3}
+  emenyCameraMove: {fileID: 1996867112}
 --- !u!114 &1563255274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4453,6 +4455,8 @@ GameObject:
   - component: {fileID: 1996867108}
   - component: {fileID: 1996867110}
   - component: {fileID: 1996867109}
+  - component: {fileID: 1996867111}
+  - component: {fileID: 1996867112}
   m_Layer: 5
   m_Name: EmenyCamera
   m_TagString: Untagged
@@ -4467,16 +4471,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1996867107}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.2588191, w: 0.9659258}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 35844969}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 369.44, y: 761.8}
+  m_AnchoredPosition: {x: 790, y: 761.8}
   m_SizeDelta: {x: 343.12, y: 300.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1996867109
@@ -4517,6 +4521,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1996867107}
   m_CullTransparentMesh: 1
+--- !u!320 &1996867111
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996867107}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 4329e7585d5ef5e41a50a88b4e597fa5, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -7892523277705038484, guid: 4329e7585d5ef5e41a50a88b4e597fa5, type: 2}
+    value: {fileID: 1996867107}
+  m_ExposedReferences:
+    m_References: []
+--- !u!114 &1996867112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996867107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b6b8ad729f1fc84681e5d7e47ff583e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2101692048
 GameObject:
   m_ObjectHideFlags: 0

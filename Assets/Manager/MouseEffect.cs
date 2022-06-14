@@ -33,7 +33,6 @@ public class MouseEffect : MonoBehaviour
     {
         mPosition = Input.mousePosition;
         worldObjectPos = Camera.main.ScreenToWorldPoint(mPosition + new Vector3(0,0,10.0f));
-        Debug.Log(worldObjectPos);
         worldObjectPos.z = 0.0f;
         createEffect = Instantiate(touchEffect,worldObjectPos,
             Quaternion.identity);

@@ -6,10 +6,12 @@ using UnityEngine.EventSystems;
 public class UseMagicButton : MonoBehaviour, IPointerDownHandler
 {
     public GameObject tarGameObject;
-
+    
     public AudioSource audioSource;
 
     public AudioClip audioClip;
+
+    public EmenyCameraMove emenyCameraMove;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,11 @@ public class UseMagicButton : MonoBehaviour, IPointerDownHandler
         if (audioSource != null && audioClip != null)
         {
             audioSource.PlayOneShot(audioClip);
+        }
+
+        if (tarGameObject.name == "BlackButton")
+        {
+            emenyCameraMove.MoveCamera();
         }
 
         tarGameObject.SetActive(false);

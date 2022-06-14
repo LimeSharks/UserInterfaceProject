@@ -25,10 +25,14 @@ public class PieceView : MonoBehaviour
     {
         if (renderedPieceType == null || forceRender || board.nextPiece.Type != renderedPieceType)
         {
-            if (numberOfNextBlock.count > 6)
+            if (numberOfNextBlock != null)
             {
-                numberOfNextBlock.count -= 1;
+                if (numberOfNextBlock.count > 6)
+                {
+                    numberOfNextBlock.count -= 1;
+                }
             }
+
             RenderPiece(board.nextPiece);
             renderedPieceType = board.nextPiece.Type;
             forceRender = false;

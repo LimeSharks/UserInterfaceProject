@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3980871a-99be-4db4-9360-bd3e92c0f1c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/1.MainScene/2022-06-14 19-18-42 (online-audio-converter.com).mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1.MainScene/2022-06-14 19-18-42 (online-audio-converter.com).mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1.MainScene/Button.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1.MainScene/Button.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1.MainScene/Buttons.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1.MainScene/Buttons.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1.MainScene/Logo.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1.MainScene/Logo.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1.MainScene/Logo.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1.MainScene/Logo.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1.MainScene/Timeline.playable" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/1.MainScene/Timeline.playable.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/6.WinScene/Button.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/6.WinScene/Button.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/6.WinScene/ButtonAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/6.WinScene/ButtonAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/BrightBlue.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/BrightBlue.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/DarkBlue01.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/DarkBlue01.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/DarkBlue02.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/DarkBlue02.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts/Scene05_DarkBlue_COOKIERUN BLACK SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts/test01.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts/test01.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/RedGradient.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/RedGradient.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/YellowGradient.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/YellowGradient.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Material/New Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Material/New Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Background05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Background05.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Background06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Background06.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Background06_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Background06_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Background07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Background07.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Background07_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Background07_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Background08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Background08.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Ingame_Background01_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Ingame_Background01_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/SelectButton03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/SelectButton03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/SelectButton04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/SelectButton04.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/SettingButton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/SettingButton.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/TextGradient02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/TextGradient02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Xbutton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Xbutton.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/islandCenter01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/islandCenter01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/islandLeft01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/islandLeft01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/islandLeft02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/islandLeft02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/islandLeft03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/islandLeft03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/islandRight01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/islandRight01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/islandRight02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/islandRight02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/logo01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/logo01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/logo02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/logo02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/logo03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/logo03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/logo04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/logo04.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/5,SuperCupScene/Secne05_PopUP.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5,SuperCupScene/Secne05_PopUP.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/5,SuperCupScene/Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/5,SuperCupScene/Timeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6.WinScene/BackGraoundCloudAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6.WinScene/BackGraoundCloudAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6.WinScene/PopUPAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6.WinScene/PopUPAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/6.WinScene/Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/6.WinScene/Timeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/EnglishFont.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/EnglishFont/COOKIERUN BLACK.TTF" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/COOKIERUN BLACK.TTF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/EnglishFont/COOKIERUN BLACK.TTF.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/COOKIERUN BLACK.TTF.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/EnglishFont/Scene05_DarkBlue_COOKIERUN BLACK SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/EnglishFont/Scene05_DarkBlue_COOKIERUN BLACK SDF.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts/Scene05_DarkBlue_COOKIERUN BLACK SDF.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/EnglishFont/Scene06_DarkBlue_COOKIERUN BLACK SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts/Scene06_DarkBlue_COOKIERUN BLACK SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/EnglishFont/Scene06_DarkBlue_COOKIERUN BLACK SDF.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts/Scene06_DarkBlue_COOKIERUN BLACK SDF.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/EnglishFont/YellowGradient_COOKIERUN BLACK SDF 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts/YellowGradient_COOKIERUN BLACK SDF 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/EnglishFont/YellowGradient_COOKIERUN BLACK SDF 1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts/YellowGradient_COOKIERUN BLACK SDF 1.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/NANUMSQUARE_0 SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts/NANUMSQUARE_0 SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/NANUMSQUARE_0 SDF.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts/NANUMSQUARE_0 SDF.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/NANUMSQUARE_0.TTF" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts/NANUMSQUARE_0.TTF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/NANUMSQUARE_0.TTF.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/OldFonts/NANUMSQUARE_0.TTF.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1.MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1.MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2.SearchScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2.SearchScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/5,SuperCupScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/5,SuperCupScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/6.WinScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/6.WinScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Ingame_Background01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Ingame_Background01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/promo_wizard01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Player02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/promo_wizard01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Player02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/promo_wizard02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Player01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/promo_wizard02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Player01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/promo_wizard03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Player03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/promo_wizard03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Player03.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/promo_wizard04.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Player04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/promo_wizard04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Player04.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2AZKQlqgkqnIRDHXIc4LhDtnPza" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3980871a-99be-4db4-9360-bd3e92c0f1c8" name="Changes" comment="" />
+      <created>1655211662402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655211662402</updated>
+      <workItem from="1655211664092" duration="161000" />
+      <workItem from="1655211852189" duration="225000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
